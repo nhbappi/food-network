@@ -20,7 +20,7 @@ h1{
     padding-left: 20px;
 }
 .half-width img{
-    width: 90%;
+    width: 70%;
 }
 .link-button{
     text-decoration: none;
@@ -36,6 +36,7 @@ h1{
 }
 footer h1{
     text-align: center;
+    color: rgb(58, 57, 57);
 
 }
 footer p{
@@ -63,13 +64,29 @@ footer p{
     display: flex;
     
     width: 60%;
-    height: 60%;
+    height: 40%;
     
     margin: 5px;
     
     
-    padding-left: 0px;
+    padding-left: 80px;
     padding-right: 30px;
     
     box-shadow: 10px 10px 40px gray;
+}
+.footer-col h2{
+    text-align: center;
+
+}
+.grey-color{
+    color: darkgrey;
+}
+.white-color{
+    color: aliceblue;
+}
+.footer-col p{
+    text-align: center;
+}
+.footer-col{
+    background-color: rgb(1, 1, 14);
 }
