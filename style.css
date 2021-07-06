@@ -1,6 +1,31 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 150, 52);
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(226, 168, 59));
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(4, 3, 19);
+    font-weight: 700;
+    
+}
+ul{
+    display: inline;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 20px;
 }
 h1{
     font-size: 50px;
@@ -51,7 +76,7 @@ footer p{
     height: calc(520px - 30px);
     
     margin: 10px;
-    
+
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -62,18 +87,20 @@ footer p{
 
 .viewers-container{
     display: flex;
+
+    width: calc(400px - 10px);
+    height: calc(150px -  20px); 
     
-    width: 60%;
-    height: 40%;
-    
-    margin: 5px;
-    
-    
-    padding-left: 80px;
+    margin: auto;
+
+    padding-top: 0px;
+    padding-left: 20px;
     padding-right: 30px;
-    
+    border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
+
 }
+
 .footer-col h2{
     text-align: center;
 
