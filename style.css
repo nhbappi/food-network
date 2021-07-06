@@ -10,7 +10,10 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 40px;
 }
 .half-width{
     width: 55%;
@@ -43,7 +46,7 @@ footer p{
 }
 .recipies-item{
     position: relative;
-    width: calc(400px - 30px);
+    width: calc(400px - 10px);
     height: calc(520px - 30px);
     
     margin: 10px;
@@ -54,4 +57,19 @@ footer p{
     border-radius: 30px;
     box-shadow: 10px 10px 40px gray;
 
+}
+
+.viewers-container{
+    display: flex;
+    
+    width: 60%;
+    height: 60%;
+    
+    margin: 5px;
+    
+    
+    padding-left: 0px;
+    padding-right: 30px;
+    
+    box-shadow: 10px 10px 40px gray;
 }
